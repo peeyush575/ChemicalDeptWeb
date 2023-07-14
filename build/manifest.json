@@ -1,0 +1,37 @@
+{
+  "name": "Chemical Dept, IIT Jodhpur",
+  "short_name": "ChemIITJ",
+  "theme_color": "#31ad6a",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons":[{
+    "src": "IIT_logo 192.png" ,
+    "sizes": "192x192" ,
+    "type": "image/png"
+  },
+  {
+    "src": "IIT_logo 256.png" ,
+    "sizes": "256x256" ,
+    "type": "image/png"
+  },
+  {
+    "src": "IIT_logo 384.png" ,
+    "sizes": "384x384" ,
+    "type": "image/png"
+  },
+  {
+    "src": "IIT_logo 512.png" ,
+    "sizes": "512x512" ,
+    "type": "image/png"
+  },
+  {
+    "src": "maskable_icon.png" ,
+    "sizes": "390x390" ,
+    "type": "image/png",
+    "purpose": "any maskable"
+  }
+  ]
+}
+
