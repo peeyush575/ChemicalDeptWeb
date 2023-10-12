@@ -104,7 +104,7 @@ export default function RegularFaculty() {
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/354355" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
                                         <Link aria-current="page" to="https://krunalgangawane.wixsite.com/kmgangawane" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link>
                                         <Link aria-current="page" to="tel:+91-291-2801713"><i className="bi bi-phone-fill"></i></Link>
-                                        <Link aria-current="page" to="https://www.linkedin.com/in/dr-abhilasha-maheshwari-55406a7b/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
+                                        <Link aria-current="page" to="https://www.linkedin.com/in/dr-krunal-gangawane-46296021/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
                                     </div>
                                 </div>
                                 <div className="member-info">
