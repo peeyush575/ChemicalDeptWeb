@@ -18,7 +18,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/Chem_Hod.jpeg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/Chem_Hod.jpg'} className="img-fluid" alt=""/>
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: pradiptewari@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/94300" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
