@@ -411,8 +411,8 @@ export default function Navbar() {
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <input type="hidden" name="domains" value="iitj.ac.in" />
-                <input type="hidden" name="sitesearch" value="iitj.ac.in" />
+                <input type="hidden" name="domains" value="cheme.iitj.ac.in" />
+                <input type="hidden" name="sitesearch" value="cheme.iitj.ac.in" />
                 <button className="btn btn-outline-success" type="submit">
                   Search
                 </button>
