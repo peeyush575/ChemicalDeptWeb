@@ -114,7 +114,7 @@ export default function Home() {
                     <div className="row g-0">
                         <div className="col-lg-6" style={{background:'var(--color-secondary)'}}>
                             <div className="content d-flex flex-column justify-content-center h-100">
-                                <h3>SEMINARS AND MEETINGS</h3>
+                                <h3>SEMINARS & WEBINARS</h3>
                                 <br></br>
                                 <ul>
                                     <li><Link aria-current="page" to="/chaitanya-talk"><i className="bi bi-check-circle-fill"></i>Chemical Engineering Department Seminar Series - Expert talk by Mr. Gottimukkala Chaitanya</Link></li>
@@ -168,11 +168,11 @@ export default function Home() {
                 <div className="container">
                     <div className="row counters" data-aos="fade-up" data-aos-delay="100">
                         <div className="col-lg-3 col-6 text-center">
-                            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" className="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="46" data-purecounter-duration="1" className="purecounter"></span>
                             <p>PG Students</p>
                         </div>
                         <div className="col-lg-3 col-6 text-center">
-                            <span data-purecounter-start="0" data-purecounter-end="109" data-purecounter-duration="1" className="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="154" data-purecounter-duration="1" className="purecounter"></span>
                             <p>UG Students</p>
                         </div>
                         <div className="col-lg-3 col-6 text-center">
@@ -180,7 +180,7 @@ export default function Home() {
                             <p>Faculty Members</p>
                         </div>
                         <div className="col-lg-3 col-6 text-center">
-                            <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" className="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" className="purecounter"></span>
                             <p>Staff Members</p>
                         </div>
                         <div className="col-lg-3 col-6 text-center">
@@ -194,7 +194,7 @@ export default function Home() {
             <section id="services" className="services">
                 <div className="container" data-aos="fade-up">
                     <div className="section-header">
-                        <h2>Research Areas</h2>
+                        <h2>Under-Graduate Laboratories</h2>
                     </div>
                     <div className="row gy-5">
                         {/* <div className="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400" style={{marginLeft:'auto',marginRight:'auto'}}>
@@ -328,21 +328,21 @@ export default function Home() {
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/alogoAi.png'} className="img-fluid" alt="ALOGOAI"/>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-xs-6">
+                        {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/bakerHughes.png'} className="img-fluid" alt="BH"/>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/eeki.jpeg'} className="img-fluid" alt="EEKI"/>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-xs-6">
+                        {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/nrl.jpeg'} className="img-fluid" alt="NRL"/>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

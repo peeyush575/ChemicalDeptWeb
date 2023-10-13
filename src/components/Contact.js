@@ -78,9 +78,10 @@ export const Contact = () => {
                                     <p>NH-62, Nagaur Road, Karwar, Jodhpur District</p>
                                 </div>
                                 <div className="email">
-                                    <Link aria-current="page" to="mailto: office_che@iitj.ac.inn" target="_blank" rel="noopener noreferrer"><i className="bi bi-envelope"></i></Link>
+                                    <Link aria-current="page" to="mailto: office_che@iitj.ac.in" target="_blank" rel="noopener noreferrer"><i className="bi bi-envelope"></i></Link>
                                     <h4>Email:</h4>
                                     <p>office_che@iitj.ac.in</p>
+                                    <p>head_che@iitj.ac.in</p>
                                 </div>
                                 <div className="phone">
                                     <Link aria-current="page" to="tel:+91-291-2801702"><i className="bi bi-phone"></i></Link>

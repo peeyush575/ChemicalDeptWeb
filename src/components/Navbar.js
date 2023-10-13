@@ -2,6 +2,18 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 export default function Navbar() {
 
+    const closeMobileNav = (event) => {
+      const target = event.currentTarget;
+      const hasDropdown = target.classList.contains("dropdown");
+      
+      if (!hasDropdown) {
+        document.querySelector("body").classList.remove("mobile-nav-active");
+        const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
+        mobileNavToggle.classList.remove("bi-x");
+        mobileNavToggle.classList.add("bi-list");
+      }
+    };
+
     const onClickToggle = (event)=>{
       const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
       console.log(mobileNavToggle)
@@ -85,10 +97,13 @@ export default function Navbar() {
         navbar.classList.remove("navbar-fixed");
       }
     };
+    const navItems = document.querySelectorAll(".navbar ul li");
+    navItems.forEach((item) => {
+      item.addEventListener("click", closeMobileNav);
+    });
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
   
   return (
     <>
@@ -157,7 +172,7 @@ export default function Navbar() {
               <nav id="navbar" className="navbar">
                 <ul>
                   <li>
-                    <Link aria-current="page" to="#">
+                    <Link aria-current="page" to="/">
                       <span style={{ fontWeight: "bold" }}>Home</span>
                     </Link>
                   </li>

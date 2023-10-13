@@ -69,7 +69,7 @@ export default function RegularFaculty() {
                                 </div>
                                 <div className="member-info">
                                     <h4>Angan Sengupta</h4>
-                                    <span>Assistant Professor</span>
+                                    <span>Associate Professor</span>
                                     <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Molecular Modelling & Simulation; Theoretical Material Design; Carbon dioxide Capture; Hydrogen Storage; Water Treatment; Fuel Cell; Thermodynamic Studies; Continuum Modelling & Simulation; Fire and Explosion Modelling; Steady and Transient State Modelling; Safety Modelling; Process Modelling; Transport Processes</p>
                                 </div>
@@ -212,6 +212,26 @@ export default function RegularFaculty() {
                                     <span>Assistant Professor</span>
                                     <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :University of Antwerp, Belgium</span></p>
                                     <p>Photocatalysis; Environmental remediation; Modeling & Simulation; Plasmonic nanomaterials; Perovskites</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div className="member">
+                                <div className="member-img">
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/santhosh.jpg'} className="img-fluid" alt=""/>
+                                    <div className="social">
+                                        <Link aria-current="page" to="mailto: skvaranasi@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
+                                        <Link aria-current="page" to="https://iitj.irins.org/profile/388018" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
+                                        <Link aria-current="page" to="https://sites.google.com/view/skvaranasi?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link>
+                                        <Link aria-current="page" to="tel:0291-1280-1719"><i className="bi bi-phone-fill"></i></Link>
+                                        <Link aria-current="page" to="http://linkedin.com/in/santhosh-kumar-varanasi-51083558" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
+                                    </div>
+                                </div>
+                                <div className="member-info">
+                                    <h4>Santhosh Kumar Varanasi</h4>
+                                    <span>Assistant Professor</span>
+                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Hyderabad</span></p>
+                                    <p>Machine learning; Soft sensor design; Sparse optimization; System Identification; Performance monitoring and assessment; Causality analysis; Model predictive control; Computer vision</p>
                                 </div>
                             </div>
                         </div>

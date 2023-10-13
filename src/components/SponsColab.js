@@ -38,21 +38,21 @@ export default function SponsColab() {
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/alogoAi.png'} className="img-fluid" alt="ALOGOAI"/>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-xs-6">
+                        {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/bakerHughes.png'} className="img-fluid" alt="BH"/>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/eeki.jpeg'} className="img-fluid" alt="EEKI"/>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-xs-6">
+                        {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/nrl.jpeg'} className="img-fluid" alt="NRL"/>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/DRDO.png'} className="img-fluid" alt="NRL" style={{height:'180px'}}/>

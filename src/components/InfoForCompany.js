@@ -148,6 +148,18 @@ export default function InfoForCompany() {
                     </div>
                 </div>
             </section>
+            <section id="features" className="features">
+                <div className="container" data-aos="fade-up">
+                    <div className="section-title">
+                        <h2>Our Recruiters</h2>
+                    </div>
+                    <div className="col-lg-3 col-md-4">
+                        <div className="icon-box">
+                            <h3>To be Updated</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }

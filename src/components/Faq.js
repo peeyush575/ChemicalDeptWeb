@@ -90,6 +90,9 @@ import { Link } from 'react-router-dom';export default function Faq() {
                             </p>
                             </div>
                         </li>
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <a href="http://academics.iitj.ac.in/?page_id=749" target="_blank">More FAQ's</a>
+                        </li>
                     </ul>
                 </div>
             </section>

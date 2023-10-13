@@ -14,7 +14,7 @@ export default function ResearchLabs() {
             <div className='container' style={{boxShadow: '0 4px 16px rgba(0, 0, 0, 0.1',paddingLeft:'20px',paddingBottom:'20px',marginLeft:'76px'}}>
                 <br></br><br></br>
                 <div className='container' style={{padding:'0 35px 0 35px'}}>
-                    <h3>Laboratories</h3>
+                    <h3>Under-Graduate Laboratories</h3>
                     <p style={{textAlign:'justify'}}>The department has well-designed experimental sets with computer interfaces and process automation. The department currently contains laboratories for reaction engineering, process control, heat transfer, fluid mechanics and mass transfer. The following is a summary of the various lab equipment for Undergraduate and Postgraduate laboratories:</p>
                     <div className='container'>
                         <div className='col-lg-8 col-md-8 col-sm-8 col-xs-12' style={{paddingTop:'7px'}}>
@@ -105,7 +105,7 @@ export default function ResearchLabs() {
                             <td>
                                 <strong>Polymers for Advanced & Sustainable Manufacturing Lab</strong><br></br>
                                 Principal Investigator: Dr. Deepak Arora<br></br>
-                                Location: 206, Anantaraman Building<br></br>
+                                Location: 206, Anantharaman Building<br></br>
                             </td>
                         </tr>
                         <tr>
@@ -137,7 +137,7 @@ export default function ResearchLabs() {
                             <td>
                                 <strong>Biomolecular Engineering Research Lab</strong><br></br>
                                 Principal Investigator: Dr. Prasenjit Sarkar<br></br>
-                                Location: 205, Anantaraman Building<br></br>
+                                Location: 205, Anantharaman Building<br></br>
                             </td>
                         </tr>
                         <tr>
@@ -153,7 +153,7 @@ export default function ResearchLabs() {
                             <td>
                                 <strong>Soft Matter Research Group</strong><br></br>
                                 Principal Investigator: Dr. Vikky Anand<br></br>
-                                Location: 203, Anantaraman Building<br></br>
+                                Location: 203, Anantharaman Building<br></br>
                             </td>
                         </tr>
                         <tr>
@@ -161,7 +161,7 @@ export default function ResearchLabs() {
                             <td>
                                 <strong>E2CS Lab</strong><br></br>
                                 Principal Investigator: Dr. Prashant Kumar Gupta<br></br>
-                                Location: 203, Anantaraman Building<br></br>
+                                Location: 203, Anantharaman Building<br></br>
                             </td>
                         </tr>
                         <tr>
@@ -169,7 +169,7 @@ export default function ResearchLabs() {
                             <td>
                                 <strong>PhotoCatER Lab</strong><br></br>
                                 Principal Investigator: Dr. Ramesh Asapu<br></br>
-                                Location: 205, Anantaraman Building<br></br>
+                                Location: 205, Anantharaman Building<br></br>
                             </td>
                         </tr>
                         <tr>
@@ -177,7 +177,7 @@ export default function ResearchLabs() {
                             <td>
                                 <strong>Computational Molecular and Macromolecular Design</strong><br></br>
                                 Principal Investigator: Dr. Praveen K Sappidi<br></br>
-                                Location: To be Updated<br></br>
+                                Location: Berm E-8 Bay 2<br></br>
                             </td>
                         </tr>
                     </tbody>
