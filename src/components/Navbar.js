@@ -358,6 +358,11 @@ export default function Navbar() {
                           News & Newsletter
                         </Link>
                       </li>
+                      <li>
+                        <Link aria-current="page" to="/achievements">
+                          Achievements
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="dropdown">
@@ -376,6 +381,11 @@ export default function Navbar() {
                       <li>
                         <Link aria-current="page" to="/corpBrochure">
                           Corporate Relations
+                        </Link>
+                      </li>
+                      <li>
+                        <Link aria-current="page" to="/ourRecs">
+                          Our Recruiters
                         </Link>
                       </li>
                       <li>

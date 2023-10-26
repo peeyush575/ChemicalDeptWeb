@@ -24,6 +24,7 @@ import Webinar from "./components/Webinar";
 import ChaitanyaTalk from "./components/talks/Chaitanya_talk";
 import MandalSandeepTalk from "./components/talks/Mandal_Sandeep_talk";
 import AakashTalk from "./components/talks/AakashTalk";
+import ApratimTalk from "./components/talks/ApratimTalk";
 import ManishaTalk from "./components/talks/Manisha_talk";
 import RajdipTalk from "./components/talks/Rajdip_talk";
 import MasaruTalk from "./components/talks/Masaru_talk";
@@ -42,7 +43,9 @@ import CorpRelation from "./components/CorpRelation";
 import Donation from "./components/Donation";
 import ResearchLabs from "./components/ResearchLabs";
 import Newsletter from "./components/Newsletter";
+import Achievements from "./components/Achievements";
 import InfoForCompany from "./components/InfoForCompany";
+import Recruiters from "./components/Recruiters";
 import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
@@ -69,6 +72,7 @@ function App() {
             <Route exact path="/chaitanya-talk" element={<ChaitanyaTalk/>}/>
             <Route exact path="/mandalSandeep-talk" element={<MandalSandeepTalk/>}/>
             <Route exact path="/aakash-talk" element={<AakashTalk/>}/>
+            <Route exact path="/apratim-talk" element={<ApratimTalk/>}/>
             <Route exact path="/manisha-talk" element={<ManishaTalk/>}/>
             <Route exact path="/rajdip-talk" element={<RajdipTalk/>}/>
             <Route exact path="/masaru-talk" element={<MasaruTalk/>}/>
@@ -86,8 +90,10 @@ function App() {
             <Route exact path="/corpBrochure" element={<CorpRelation/>}/>
             <Route exact path="/researchArea" element={<ResearchLabs/>}/>
             <Route exact path="/newsLetter" element={<Newsletter/>}/>
+            <Route exact path="/achievements" element={<Achievements/>}/>
             <Route exact path="/donate" element={<Donation/>}/>
             <Route exact path="/infoComp" element={<InfoForCompany/>}/>
+            <Route exact path="/ourRecs" element={<Recruiters/>}/>
             <Route exact path="/contact" element={<Contact/>}/>
             <Route exact path="/faq" element={<Faq/>}/>
           </Routes>
