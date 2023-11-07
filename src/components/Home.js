@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Navbar/>
-            <Carousel fade style={{marginTop:'165px'}} data-aos="fade-down">
+            <Carousel fade className="carousel-control" style={{marginTop:'165px'}} data-aos="fade-down">
                 <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"

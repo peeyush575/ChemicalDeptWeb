@@ -546,6 +546,13 @@ section {
   margin-left: 10px;
 }
 
+.carousel-control .carousel-control-prev-icon,
+.carousel-control .carousel-control-next-icon {
+  background-color: black;
+  color: black;
+}
+
+
 @-webkit-keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
